@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node_modules/.bin/nodemon --delay 5 dist/index",
     "gulp": "node_modules/.bin/gulp"
-  },  
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "@types/express-graphql": "0.0.34",
     "@types/graphql": "^0.11.5",
     "@types/node": "^8.0.34",
+    "@types/sequelize": "^4.0.76",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
     "nodemon": "^1.17.3",
@@ -25,6 +26,8 @@
     "express-graphql": "^0.6.11",
     "graphql": "^0.11.7",
     "graphql-tools": "^2.3.0",
-    "gulp-typescript": "^4.0.2"
+    "gulp-typescript": "^4.0.2",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.13.10"
   }
 }
