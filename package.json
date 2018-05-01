@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "gulp-typescript": "^4.0.2"
+  }
 }
