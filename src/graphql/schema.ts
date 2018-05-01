@@ -31,6 +31,11 @@ const typeDefs = `
 `;
 
 const resolvers = {
+  User: {
+    id: (parent) => parent.id,
+    name: (parent) => parent.id,
+    email: (parent) => parent.id
+  },
   Query: {
     allUsers: () => Users
   },
